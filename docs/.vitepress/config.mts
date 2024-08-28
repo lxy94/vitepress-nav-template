@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "尼豆",
+  base:'/vitepress-nav-template/',
   description: "A VitePress Site",
   appearance:'dark',
   themeConfig: {
